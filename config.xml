@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <widget xmlns="http://www.w3.org/ns/widgets" version="1.0" xml:lang="en">
   <name>Hide Hotmail ads</name>
+  <name xml:lang="nb">Skjul Hotmail annonser</name>
   <icon src="icons/hotmail.png"/>
-  <description>Remove ads from hotmail</description>
+  <description>Remove ads from Live Mail/Hotmail.com</description>
+  <description xml:lang="nb">Skjuler annonser fra Live Mail/Hotmail.com</description>
   <license xml:space="preserve">Copyright 2011 frankdd89
 
 	Licensed under the Apache License, Version 2.0 (the "License");

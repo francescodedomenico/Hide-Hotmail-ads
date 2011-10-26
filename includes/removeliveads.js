@@ -12,15 +12,10 @@ var oexRemoveHotmailAd = function()
       var elem = document.getElementById(id);
       if (elem != null) elem.parentNode.removeChild(elem);
     }
-	
-	//var temp = document.all("MainContent");
-	
     removeElementByID('Crm120x60_0_p');
     removeElementByID('SkyscraperContent');
-	var elem = document.getElementById('MainContent');
-	try{
-		elem.style.right = '0px';
-	}catch(e){}
+    var elem = document.getElementById('MainContent');
+    if (elem != null) elem.style.right = '0px';
   },false);
 }();
 

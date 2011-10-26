@@ -3,7 +3,7 @@
   <name>Hide Hotmail ads</name>
   <name xml:lang="nb">Skjul Hotmail annonser</name>
   <icon src="icons/hotmail.png"/>
-  <description>Remove ads from Live Mail/Hotmail.com</description>
+  <description xml:lang="en">Remove ads from Live Mail/Hotmail.com</description>
   <description xml:lang="nb">Skjuler annonser fra Live Mail/Hotmail.com</description>
   <license xml:space="preserve">Copyright 2011 frankdd89
 

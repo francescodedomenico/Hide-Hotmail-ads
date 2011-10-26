@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <widget xmlns="http://www.w3.org/ns/widgets" id="https://github.com/frankdd89/Hide-Hotmail-ads" version="1.0" xml:lang="en">
-  <name>Hide Hotmail ads</name>
+  <name xml:lang="en">Hide Hotmail ads</name>
   <name xml:lang="nb">Skjul Hotmail annonser</name>
   <icon src="icons/hotmail.png"/>
   <description xml:lang="en">Remove ads from Live Mail/Hotmail.com</description>

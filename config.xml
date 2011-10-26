@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" version="1.0">
-    <name>Hide Hotmail ads</name>
-	<icon src="icons/hotmail.png"/>
-    <description>Remove ads from hotmail</description>
-	<license>Copyright 2011 frankdd89
+<widget xmlns="http://www.w3.org/ns/widgets" version="1.0" xml:lang="en">
+  <name>Hide Hotmail ads</name>
+  <icon src="icons/hotmail.png"/>
+  <description>Remove ads from hotmail</description>
+  <license xml:space="preserve">Copyright 2011 frankdd89
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -16,5 +16,5 @@
 	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 	See the License for the specific language governing permissions and
 	limitations under the License.</license>
-    <author href="http://facebook.com/frankdd89">frankdd89</author>
+  <author href="http://facebook.com/frankdd89">frankdd89</author>
 </widget>

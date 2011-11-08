@@ -60,6 +60,9 @@ var oexRemoveHotmailAd = function()
 	  };  
     }
 	addFullscreenButton();
+	
+	removeElementByID('Ad300x600_0');
+	removeElementByID('Crm300x125_0');
     removeElementByID('Crm120x60_0_p');
     removeElementByID('SkyscraperContent');
     var elem = document.getElementById('MainContent');

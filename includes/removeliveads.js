@@ -31,6 +31,7 @@ var oexRemoveHotmailAd = function()
 			elem.style.zIndex="2147483647";
 			elem.style.top="0em";
 			elem.style.left="0px";
+			
 		}
 		removeElementByID('Fullscreen');
 		addFullscreenButtonBack();	
@@ -60,14 +61,16 @@ var oexRemoveHotmailAd = function()
 	  };  
     }
 	addFullscreenButton();
-	
+	removeElementByID('Crm120x60_1');
 	removeElementByID('Ad300x600_0');
 	removeElementByID('Crm300x125_0');
     removeElementByID('Crm120x60_0_p');
     removeElementByID('SkyscraperContent');
     var elem = document.getElementById('MainContent');
-    if (elem != null) elem.style.right = '0px';
-	
+    if (elem != null){
+		elem.style.right = '0px';
+		elem.style.marginRight='0px';
+	}
   },false);
   
 }();

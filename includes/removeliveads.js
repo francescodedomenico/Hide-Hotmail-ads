@@ -25,6 +25,10 @@ var oexRemoveHotmailAd = function()
 	  var data = document.getElementById('AfterMoveToPipe');
 	  if(data!=null) data.parentNode.insertBefore(tagli,data);
 	  taga.onclick = function(){
+	    var head = document.getElementById('HeaderContainer');
+		if( head != null ){
+			head.style.display="none";
+		}
 		var elem = document.getElementById('Middle');
 		if( elem != null ){
 			elem.style.background="#FFFFFF";
@@ -49,6 +53,10 @@ var oexRemoveHotmailAd = function()
 	  var data = document.getElementById('AfterMoveToPipe');
 	  if(data!=null) data.parentNode.insertBefore(tagli,data);
 	  taga.onclick = function(){
+		var head = document.getElementById('HeaderContainer');
+		if( head != null ){
+			head.style.display="block";
+		}
 		var elem = document.getElementById('Middle');
 		if( elem != null ){
 			elem.style.background="";

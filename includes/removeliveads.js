@@ -74,6 +74,7 @@ var oexRemoveHotmailAd = function()
 	removeElementByID('Crm300x125_0');
     removeElementByID('Crm120x60_0_p');
     removeElementByID('SkyscraperContent');
+	removeElementByID('Ad300x250_0_p');
     var elem = document.getElementById('MainContent');
     if (elem != null){
 		elem.style.right = '0px';
